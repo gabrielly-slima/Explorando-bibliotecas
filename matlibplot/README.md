@@ -12,7 +12,7 @@ Este projeto é um programa simples em Python que permite ao usuário criar uma 
 Principais funções de matplotlib.pyplot usadas:
 
 Função|Descrição|Exemplo no código
----
+---|---|---
 plt.plot(x, y)|Plota uma linha conectando os pontos definidos em x e y|Plota a reta entre os pontos dados.
 plt.xlabel()|Define o rótulo do eixo X|Ex: plt.xlabel("Eixo X")
 plt.ylabel()|Define o rótulo do eixo Y|Ex: plt.ylabel("Eixo Y")
