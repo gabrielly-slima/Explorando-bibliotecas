@@ -5,8 +5,9 @@ Está incluído na instalação padrão do Python, sem necessidade de instalar p
 Muito usada para prototipagem rápida e aplicações desktop simples.
 
 ## Funções e componentes Tkinter que mais utilizo:
+
 Componente|Função/Descrição|Exemplo no código
----|---|---|---
+---|---|---
 tk.Tk()|Cria a janela principal da aplicação GUI|janela = tk.Tk()
 window.title("texto")|Define o título da janela principal|janela.title("Pesquisa binária")
 tk.Label()|Cria um texto fixo na janela (rótulo)|tk.Label(janela, text="MENU INICIAL").grid(...)
