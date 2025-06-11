@@ -11,7 +11,7 @@ def pedir_valores(eixo):
     list[float]: Lista com duas coordenadas convertidas para float.
     '''
     while True:
-        valores = input(f"Digite duas coordenadas do eixo das abscissas {eixo} separando-as por espaços\n").split()
+        valores = input(f"Digite duas coordenadas do eixo {eixo} separando-as por espaços\n").split()
         if len(valores) > 2:
             print("Você digitou coordenadas a mais, digite apenas DUAS")
             continue
